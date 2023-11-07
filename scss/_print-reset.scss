@@ -74,7 +74,7 @@ h6 {
 	font-family: $headers-font-family;
 	line-height: 1.2;
 	margin-bottom: $spacing * 0.5;
-	margin-top: 0;
+	margin-top: $spacing * 0.5;
 }
 
 h1 {

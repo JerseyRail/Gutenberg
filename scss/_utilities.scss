@@ -14,7 +14,15 @@
 }
 
 .no-print {
-	display: none;
+	@media print{
+		display: none;
+	}
+}
+
+.no-screen {
+	@media screen {
+		display: none;
+	}
 }
 
 a {

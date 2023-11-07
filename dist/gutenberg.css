@@ -380,7 +380,7 @@ h6 {
   font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2;
   margin-bottom: 0.75rem;
-  margin-top: 0;
+  margin-top: 0.75rem;
 }
 
 h1 {
@@ -583,14 +583,15 @@ body {
   padding-top: 2.54cm;
 }
 
-a[href^=http]:after, a[href^=ftp]:after {
-  content: " (" attr(href) ")";
-  font-size: 80%;
+@media only print {
+  a[href^=http]:after, a[href^=ftp]:after {
+    content: " (" attr(href) ")";
+    font-size: 80%;
+  }
+  a[href$=".jpg"]:after, a[href$=".jpeg"]:after, a[href$=".gif"]:after, a[href$=".png"]:after {
+    display: none;
+  }
 }
-a[href$=".jpg"]:after, a[href$=".jpeg"]:after, a[href$=".gif"]:after, a[href$=".png"]:after {
-  display: none;
-}
-
 abbr[title]:after,
 acronym[title]:after {
   content: " (" attr(title) ")";
@@ -611,8 +612,16 @@ acronym[title]:after {
   page-break-inside: avoid;
 }
 
-.no-print {
-  display: none;
+@media print {
+  .no-print {
+    display: none;
+  }
+}
+
+@media screen {
+  .no-screen {
+    display: none;
+  }
 }
 
 a.no-reformat:after {
