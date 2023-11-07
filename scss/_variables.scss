@@ -2,10 +2,15 @@
 $line-height: 1.5 !default;
 $spacing: 1.5rem !default;
 
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+
 // Font family
 // Taken from bootstrap
-$font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
-$font-family-serif: Georgia, 'Times New Roman', Times, serif !default;
+// Modified for JerseyRail
+$font-family-sans-serif: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$font-family-serif: 'Frank Ruhl Libre', Georgia, 'Times New Roman', Times, serif !default;
 $font-family-monospace: Menlo, Monaco, Consolas, 'Courier New', monospace !default;
 
 $base-font-family: $font-family-sans-serif !default;

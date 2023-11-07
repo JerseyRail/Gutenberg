@@ -1,3 +1,9 @@
+# === PLEASE NOTE ===
+This is a fork to make the changing of fonts easy for this project.
+
+For the original, please see [this repo](https://github.com/BafS/Gutenberg).
+
+
 <p align="center">
 	<img width="470" alt="Gutenberg" src="http://i.imgur.com/NlGJI3v.png">
 </p>

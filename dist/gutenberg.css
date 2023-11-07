@@ -4,6 +4,7 @@
  * MIT Fabien Sa
  * https://github.com/BafS/Gutenberg
  */
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -346,7 +347,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #fff !important;
   color: #000 !important;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   margin: 0 auto;
@@ -376,7 +377,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2;
   margin-bottom: 0.75rem;
   margin-top: 0;
